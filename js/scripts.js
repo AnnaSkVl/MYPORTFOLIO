@@ -23,7 +23,7 @@ $(document).ready(function(){
     gallery:{enabled:true}
   });
 });
-
+/*
 $(function(){
 
   let filter = $("[data-filter]");
@@ -47,4 +47,28 @@ $(function(){
       });
       }
       });
-  });
+  });*/
+  const filter = document.querySelector('#filterButtons');
+  const items = document.querySelectorAll('[data-cat]');
+  
+  filter.addEventListener('click', filterButtonClickHandler);
+  
+  function filterButtonClickHandler(evt) {
+    const btn = evt.target.closest('[data-filter]');
+    if (btn) {
+      const cat = btn.dataset.filter;
+      if (cat === 'all') showAll();
+      else showCat(cat);
+    }
+  }
+  
+  function showAll() {
+    items.forEach(item => item.classList.remove('hidden'));
+  }
+  
+  function showCat(cat) {
+    items.forEach(item => {
+      const isHidden = item.dataset.cat !== cat;
+      item.classList.toggle('hidden', isHidden);
+    });
+  }

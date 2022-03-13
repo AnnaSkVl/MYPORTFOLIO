@@ -7,6 +7,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="css/style.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
@@ -106,7 +107,7 @@
 
         <div class="skill">
           <div class="skill-info">
-            <span>Figma</span>
+            <span>Figma, Adobe Photoshop, Adobe Illustrator, Adobe XD</span>
             <span>80%</span>
           </div>
           <div class="skill-bar cs"></div>
@@ -193,263 +194,402 @@
 
   <section id="works" class="dark">
     <h1 class="section-title">Works</h1>
-        <div class="works__nav">
-            <a href="" class="works__nav-link" data-filter="all">All</a>
-            <a href="" class="works__nav-link" data-filter="websites">Websites</a>
-            <a href="" class="works__nav-link" data-filter="app">JS projects</a>
-            <a href="" class="works__nav-link" data-filter="web design">Web design</a>
+        <div class="works__nav" id="filterButtons">
+            <button class="works__nav-link btn" data-filter="all">All</button>
+            <button class="works__nav-link btn" data-filter="websites">Websites</button>
+            <button class="works__nav-link btn" data-filter="app">App</button>
+            <button class="works__nav-link btn" data-filter="web design">Web design</button>
         </div>
 
       
           <div class="inner-width">
-            <div class="portfolio" id="portfolio">
+            <div class="portfolio" >
       <!--1-->
-              <a href="https://annaskvl.github.io/BootCourse/" class="work" data-cat="app">
+      <div class="portfolio__col" data-cat="app">
+        <div class="work">
+              <a href="https://annaskvl.github.io/BootCourse/" >
                 <img src="images/works/1.jpg" alt="">
                 <div class="info">
                   <h3>Bootstrap course</h3>
-                </div>
+                </div>                       
               </a>
-      <!--2-->
-              <a href="https://annaskvl.github.io/App/" class="work" data-cat="app">
+            </div>                           
+            </div>                                
+      <!--2-->   
+      <div class="portfolio__col" data-cat="app">
+        <div class="work">                     
+              <a href="https://annaskvl.github.io/App/">
                 <img src="images/works/2.jpg" alt="">
                 <div class="info">
                   <h3>App</h3>
                 </div>
               </a>
+            </div>                           
+          </div> 
       <!--3-->
-              <a href="https://annaskvl.github.io/Webcourses/" class="work" data-cat="app">
+      <div class="portfolio__col" data-cat="app">
+        <div class="work">
+              <a href="https://annaskvl.github.io/Webcourses/">
                 <img src="images/works/3.jpg" alt="">
                 <div class="info">
                   <h3>Web courses</h3>
                 </div>
               </a>
+            </div>                           
+          </div> 
        <!--4-->
-              <a href="https://annaskvl.github.io/foodweb/" class="work" data-cat="websites">
+       <div class="portfolio__col" data-cat="app">
+        <div class="work">
+              <a href="https://annaskvl.github.io/foodweb/">
                 <img src="images/works/4.jpg" alt="">
                 <div class="info">
                   <h3>Food restaurant</h3>
                 </div>
               </a>
+            </div>                           
+          </div> 
         <!--5-->
-              <a href="https://annaskvl.github.io/Popup_CARD/" class="work" data-cat="app">
+        <div class="portfolio__col" data-cat="app">
+          <div class="work">
+              <a href="https://annaskvl.github.io/Popup_CARD/">
                 <img src="images/works/5.jpg" alt="">
                 <div class="info">
                   <h3>Organic products</h3>
                 </div>
               </a>
+            </div>                           
+          </div> 
       <!--6-->
+      <div class="portfolio__col" data-cat="app">
+        <div class="work">
               <a href="https://annaskvl.github.io/CALCULATOR/" class="work" data-cat="app">
                 <img src="images/works/6.jpg" alt="">
                 <div class="info">
                   <h3>Calculator</h3>
                 </div>
               </a>
+            </div>                           
+          </div> 
       <!--7-->
+      <div class="portfolio__col" data-cat="app">
+        <div class="work">
               <a href="https://annaskvl.github.io/Validator/" class="work" data-cat="app">
                 <img src="images/works/7.jpg" alt="">
                 <div class="info">
                   <h3>Validator</h3>
                 </div>
               </a>
+            </div>                           
+          </div>     
      <!--8--> 
+     <div class="portfolio__col" data-cat="app">
+      <div class="work">
               <a href="https://annaskvl.github.io/Countdown/" class="work" data-cat="app">
                 <img src="images/works/8.jpg" alt="">
                 <div class="info">
                   <h3>Time countdown</h3>
                 </div>
               </a>
-     <!--9-->         
-              <a href="https://annaskvl.github.io/MUSICPlayer/" class="work" data-cat="app">
+            </div>                           
+          </div>     
+     <!--9-->    
+     <div class="portfolio__col" data-cat="app">
+      <div class="work">     
+              <a href="https://annaskvl.github.io/MUSICPlayer/" class="work">
                 <img src="images/works/9.jpg" alt="">
                 <div class="info">
                   <h3>Music Player</h3>
                 </div>
               </a>
+            </div>                           
+          </div>     
      <!--10--> 
+     <div class="portfolio__col" data-cat="app">
+      <div class="work">
               <a href="https://annaskvl.github.io/LD_Mood/" class="work" data-cat="app">
                 <img src="images/works/10.jpg" alt="">
                 <div class="info">
                   <h3>LD Mood</h3>
                 </div>
               </a>
-      <!--11--> 
-              <a href="https://annaskvl.github.io/RENTDOM/" class="work" data-cat="websites">
+            </div>                           
+          </div>     
+      <!--11-->
+      <div class="portfolio__col" data-cat="websites">
+        <div class="work"> 
+              <a href="https://annaskvl.github.io/RENTDOM/" class="work">
                 <img src="images/works/11.jpg" alt="">
                 <div class="info">
                   <h3>Rent of houses</h3>
                 </div>
               </a>
+            </div>                           
+          </div>     
       <!--12--> 
-              <a href="https://annaskvl.github.io/SWIPER/" class="work" data-cat="app">
+      <div class="portfolio__col" data-cat="app">
+        <div class="work">
+              <a href="https://annaskvl.github.io/SWIPER/" class="work">
                 <img src="images/works/12.jpg" alt="">
                 <div class="info">
                   <h3>Swiper</h3>
                 </div>
               </a>
+            </div>                           
+          </div>     
       <!--13--> 
-              <a href="https://annaskvl.github.io/FURNSHOP/" class="work" data-cat="websites">
+      <div class="portfolio__col" data-cat="websites">
+        <div class="work">
+              <a href="https://annaskvl.github.io/FURNSHOP/" class="work">
                 <img src="images/works/13.jpg" alt="">
                 <div class="info">
                   <h3>Furniture shop</h3>
                 </div>
               </a>
+            </div>                           
+          </div>     
       <!--14--> 
-              <a href="https://annaskvl.github.io/RENT_CAR/" class="work" data-cat="websites">
+      <div class="portfolio__col" data-cat="websites">
+        <div class="work">
+              <a href="https://annaskvl.github.io/RENT_CAR/" class="work">
                 <img src="images/works/14.jpg" alt="">
                 <div class="info">
                   <h3>Service of renting cars</h3>
                 </div>
               </a>
+            </div>                           
+          </div>     
       <!--15--> 
-              <a href="https://annaskvl.github.io/Organic/" class="work" data-cat="websites">
+      <div class="portfolio__col" data-cat="websites">
+        <div class="work">
+              <a href="https://annaskvl.github.io/Organic/" class="work">
                 <img src="images/works/15.jpg" alt="">
                 <div class="info">
                   <h3>Organic Food</h3>
                 </div>
               </a>
+            </div>                           
+          </div>     
       <!--16--> 
-              <a href="https://annaskvl.github.io/FOOD/" class="work" data-cat="websites">
+      <div class="portfolio__col" data-cat="websites">
+        <div class="work">
+              <a href="https://annaskvl.github.io/FOOD/" class="work">
                 <img src="images/works/16.jpg" alt="">
                 <div class="info">
                   <h3>Restaurant of food</h3>
                 </div>
               </a>
+            </div>                           
+          </div>     
         <!--17--> 
-        <a href="hhttps://annaskvl.github.io/PLANTS/" class="work" data-cat="websites">
+        <div class="portfolio__col" data-cat="websites">
+          <div class="work">
+        <a href="hhttps://annaskvl.github.io/PLANTS/" class="work">
           <img src="images/works/17.jpg" alt="">
           <div class="info">
             <h3>Plants</h3>
           </div>
         </a>
+      </div>                           
+    </div>     
       <!--18--> 
-      <a href="https://annaskvl.github.io/SPIFY/" class="work" data-cat="websites">
+      <div class="portfolio__col" data-cat="websites">
+        <div class="work">
+      <a href="https://annaskvl.github.io/SPIFY/" class="work">
         <img src="images/works/18.jpg" alt="">
         <div class="info">
           <h3>Commercial agency</h3>
         </div>
       </a>
+    </div>                           
+  </div>     
       <!--19--> 
-      <a href="https://annaskvl.github.io/AUTODOM/" class="work" data-cat="websites">
+      <div class="portfolio__col" data-cat="websites">
+        <div class="work">
+      <a href="https://annaskvl.github.io/AUTODOM/" class="work">
         <img src="images/works/19.jpg" alt="">
         <div class="info">
           <h3>The agency of renting cars</h3>
         </div>
       </a>
+    </div>                           
+  </div>     
         <!--20--> 
-        <a href="https://annaskvl.github.io/INTSHOP/" class="work" data-cat="websites">
+        <div class="portfolio__col" data-cat="websites">
+          <div class="work">
+        <a href="https://annaskvl.github.io/INTSHOP/" class="work">
           <img src="images/works/20.jpg" alt="">
           <div class="info">
             <h3>Internet-shop</h3>
           </div>
         </a>
+      </div>                           
+    </div>     
           <!--21--> 
-          <a href="https://annaskvl.github.io/Mebel/" class="work" data-cat="websites">
+          <div class="portfolio__col" data-cat="websites">
+            <div class="work">
+          <a href="https://annaskvl.github.io/Mebel/" class="work">
             <img src="images/works/21.jpg" alt="">
             <div class="info">
               <h3>Mebel shop</h3>
             </div>
           </a>
+        </div>                           
+      </div>     
             <!--22--> 
-            <a href="https://annaskvl.github.io/SHOP_BURGERS/" class="work" data-cat="websites">
+            <div class="portfolio__col" data-cat="websites">
+              <div class="work">
+            <a href="https://annaskvl.github.io/SHOP_BURGERS/" class="work">
               <img src="images/works/22.jpg" alt="">
               <div class="info">
                 <h3>The delivery of burgers</h3>
               </div>
             </a>
+          </div>                           
+        </div>     
             <!--23--> 
-            <a href="https://annaskvl.github.io/URHELP/" class="work" data-cat="websites">
+            <div class="portfolio__col" data-cat="websites">
+              <div class="work">
+            <a href="https://annaskvl.github.io/URHELP/" class="work">
               <img src="images/works/23.jpg" alt="">
               <div class="info">
                 <h3>The law agency</h3>
               </div>
             </a>
-            <!--24--> 
-            <a href="https://annaskvl.github.io/AnnaSkVI.github.io/" class="work" data-cat="websites">
+          </div>                           
+        </div>     
+            <!--24-->
+            <div class="portfolio__col" data-cat="websites">
+              <div class="work"> 
+            <a href="https://annaskvl.github.io/AnnaSkVI.github.io/" class="work">
               <img src="images/works/24.jpg" alt="">
               <div class="info">
                 <h3>The veloshop</h3>
               </div>
             </a>
+          </div>                           
+        </div>     
             <!--25--> 
-            <a href="https://annaskvl.github.io/Courses/" class="work" data-cat="websites">
+            <div class="portfolio__col" data-cat="websites">
+              <div class="work">
+            <a href="https://annaskvl.github.io/Courses/" class="work">
               <img src="images/works/25.jpg" alt="">
               <div class="info">
                 <h3>Courses</h3>
               </div>
             </a>
+          </div>                           
+        </div>     
                  <!--26--> 
-                 <a href="https://annaskvl.github.io/COMP_SHOP/" class="work" data-cat="websites">
+                 <div class="portfolio__col" data-cat="websites">
+                  <div class="work">
+                 <a href="https://annaskvl.github.io/COMP_SHOP/" class="work">
                   <img src="images/works/26.jpg" alt="">
                   <div class="info">
                     <h3>The computer shop</h3>
                   </div>
                 </a>
-                     <!--27--> 
-            <a href="https://annaskvl.github.io/CREATIVE-AGENCY/" class="work" data-cat="websites">
+              </div>                           
+            </div>     
+                     <!--27-->
+                     <div class="portfolio__col" data-cat="websites">
+                      <div class="work"> 
+            <a href="https://annaskvl.github.io/CREATIVE-AGENCY/" class="work">
               <img src="images/works/27.jpg" alt="">
               <div class="info">
                 <h3>The creativy agency</h3>
               </div>
             </a>
+          </div>                           
+        </div>     
                  <!--28--> 
-                 <a href="https://annaskvl.github.io/MEDIA/" class="work" data-cat="websites">
+                 <div class="portfolio__col" data-cat="websites">
+                  <div class="work">
+                 <a href="https://annaskvl.github.io/MEDIA/" class="work">
                   <img src="images/works/28.jpg" alt="">
                   <div class="info">
                     <h3>The media agency</h3>
                   </div>
                 </a>
+              </div>                           
+            </div>     
                 <!--29--> 
-                <a href="https://annaskvl.github.io/SHOP_CHAIRS/" class="work" data-cat="websites">
+                <div class="portfolio__col" data-cat="websites">
+                  <div class="work">
+                <a href="https://annaskvl.github.io/SHOP_CHAIRS/" class="work">
                   <img src="images/works/29.jpg" alt="">
                   <div class="info">
                     <h3>The shop of chairs</h3>
                   </div>
                 </a>
+              </div>                           
+            </div>     
                 <!--30--> 
-                <a href="https://annaskvl.github.io/NETFLIX/" class="work" data-cat="websites">
+                <div class="portfolio__col" data-cat="websites">
+                  <div class="work">
+                <a href="https://annaskvl.github.io/NETFLIX/" class="work">
                   <img src="images/works/30.jpg" alt="">
                   <div class="info">
                     <h3>NETFLIX</h3>
                   </div>
                 </a>
+              </div>                           
+            </div>     
                 <!--31--> 
-                <a href="https://annaskvl.github.io/AnnaSkVI_1.github.io/" class="work" data-cat="websites">
+                <div class="portfolio__col" data-cat="websites">
+                  <div class="work">
+                <a href="https://annaskvl.github.io/AnnaSkVI_1.github.io/" class="work">
                   <img src="images/works/31.jpg" alt="">
                   <div class="info">
                     <h3>The company UBER</h3>
                   </div>
                 </a>
+              </div>                           
+            </div>     
                 <!--32--> 
-                <a href="https://www.figma.com/file/URiVt43EZ9YF1csYtL7e41/Architect?node-id=0%3A1" class="work" data-cat="web design">
+                <div class="portfolio__col" data-cat="web design">
+                  <div class="work">
+                <a href="https://www.figma.com/file/URiVt43EZ9YF1csYtL7e41/Architect?node-id=0%3A1" class="work">
                   <img src="images/works/32.jpg" alt="">
                   <div class="info">
                     <h3>Architect buiro</h3>
                   </div>
                 </a>
-
+              </div>                           
+            </div>     
                     <!--33--> 
-                    <a href="https://www.figma.com/file/4fnpwZxQ9OTjanTHfimciP/Honey?node-id=0%3A1" class="work" data-cat="web design">
+                    <div class="portfolio__col" data-cat="web design">
+                      <div class="work">
+                    <a href="https://www.figma.com/file/4fnpwZxQ9OTjanTHfimciP/Honey?node-id=0%3A1" class="work">
                       <img src="images/works/33.jpg" alt="">
                       <div class="info">
                         <h3>HONEY</h3>
                       </div>
                     </a>
+                  </div>                           
+                </div>     
                       <!--34--> 
-                      <a href="https://www.figma.com/file/Z8fs0YcLKO6mUJoB177HGG/BankService" class="work" data-cat="web design">
+                      <div class="portfolio__col" data-cat="web design">
+                        <div class="work">
+                      <a href="https://www.figma.com/file/Z8fs0YcLKO6mUJoB177HGG/BankService" class="work">
                         <img src="images/works/34.jpg" alt="">
                         <div class="info">
                           <h3>BANKING</h3>
                         </div>
                       </a>
+                    </div>                           
+                  </div>     
                         <!--35--> 
-                    <a href="https://www.figma.com/file/uUJPESzWRXrMiPZjzcNpsQ/SocialNet" class="work" data-cat="websites">
+                        <div class="portfolio__col" data-cat="web design">
+                          <div class="work">
+                           
+                    <a href="https://www.figma.com/file/uUJPESzWRXrMiPZjzcNpsQ/SocialNet" class="work">
                       <img src="images/works/35.jpg" alt="">
                       <div class="info">
                         <h3>SOCIAL NET</h3>
                       </div>
                     </a>
-                    
+                  </div>                           
+                </div>     
             </div>
             </div>
           </div>
@@ -503,6 +643,7 @@
 
   <!-- Go Top BTN -->
   <button class="goTop fas fa-arrow-up"></button>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <script src="js/scripts.js"></script>
 </body>
 </html>
